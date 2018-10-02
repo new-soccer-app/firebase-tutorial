@@ -1,11 +1,12 @@
 // Initialize Firebase
+
 var config = {
-  apiKey: "AIzaSyBICyFq4GPWKBhCNe46-1MCsDNbfoymkU0",
-  authDomain: "amazing-project-95629.firebaseapp.com",
-  databaseURL: "https://amazing-project-95629.firebaseio.com",
-  projectId: "amazing-project-95629",
-  storageBucket: "amazing-project-95629.appspot.com",
-  messagingSenderId: "42388728204"
+  apiKey: "AIzaSyBJP9huLs-PNTPvbXRASKzx5KYQ2TYUFAg",
+  authDomain: "psc-refferees-main.firebaseapp.com",
+  databaseURL: "https://psc-refferees-main.firebaseio.com"
+  projectId: "psc-refferees-main",
+  storageBucket: "psc-refferees-main.appspot.com",
+  messagingSenderId: "119532873518"
 };
 firebase.initializeApp(config);
 
