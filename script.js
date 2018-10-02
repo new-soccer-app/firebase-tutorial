@@ -23,7 +23,7 @@ rootRef.once('value', function(snapshot){
 });
 
 function pushData(){
-  var data = document.getElementById("dataValue").value;
+  var data = document.getElementById("gameNumber").value;
   var dataRef = database.ref('/pushData').push();
   dataRef.set({
     value: data
@@ -31,7 +31,7 @@ function pushData(){
 }
 
 function setData(){
-  var data = document.getElementById("dataValue").value;
+  var data = document.getElementById("GameNumber").value;
   var dataRef = database.ref('/setData');
   console.log(data)
   dataRef.set({
