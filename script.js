@@ -31,7 +31,7 @@ function pushData(){
 }
 
 function setData(){
-  var data = document.getElementById("GameNumber").value;
+  var data = document.getElementById("gameNumber").value;
   var dataRef = database.ref('/setData');
   console.log(data)
   dataRef.set({
